@@ -7,6 +7,10 @@ import io
 import datetime
 import os # 파일 존재 확인용
 
+# 디버깅용 코드 (잠시만 넣어보세요!)
+import os
+st.write("📍 현재 서버 위치의 파일들:", os.listdir())
+
 # 1. 보안 및 페이지 설정
 api_key = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=api_key)
