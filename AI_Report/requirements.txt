@@ -1,0 +1,7 @@
+streamlit
+pandas
+plotly
+google-generativeai
+openpyxl
+python-docx
+kaleido
