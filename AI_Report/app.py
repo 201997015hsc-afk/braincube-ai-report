@@ -242,7 +242,7 @@ if excel_file is not None:
                         domain={'x': [0, 1], 'y': [0, 0.75]}, showlegend=False
                     ))
                     fig_budget.update_layout(height=300, margin=dict(l=20, r=20, t=50, b=20), hoverlabel=dict(bgcolor="white", font_size=14))
-                    g_col1.plotly_chart(fig_budget, use_container_width=True)
+                    g_col1.plotly_chart(fig_budget, width='stretch')
                 
                 # 2. CPA 계기판
                 if has_db and target_cpa > 0:
