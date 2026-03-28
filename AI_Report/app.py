@@ -38,7 +38,7 @@ benchmark_df = load_benchmark()
 
 # 4. 사이드바 - 파일 업로드
 st.sidebar.header("📊 데이터 업로드")
-uploaded_file = st.sidebar.file_plus_uploader("캠페인 로우데이터(CSV/XLSX)를 올려주세요", type=["csv", "xlsx"])
+uploaded_file = st.sidebar.file_uploader("캠페인 로우데이터(CSV/XLSX)를 올려주세요", type=["csv", "xlsx"])
 
 if uploaded_file:
     # 데이터 읽기
